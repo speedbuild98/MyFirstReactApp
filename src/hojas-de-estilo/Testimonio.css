@@ -37,3 +37,29 @@
   font-size: 1.1rem;
   text-align: justify;
 }
+
+/* For small devices */
+@media screen and (max-width: 400px){
+  .contenedor-testimonio{
+    width: 100vw;
+    height:auto;
+    margin: 10px 0;
+  }
+  .nombre-testimonio,
+  .cargo-testimonio{
+    font-size: .6rem;
+    line-height: 10px;
+    margin: 5px 0;
+  }
+  .texto-testimonio{
+    font-size: .5rem;
+    line-height: 10px;
+    margin: 0;
+  }
+  .imagen-testimonio{
+    max-height: 150px;
+    border-radius:10px;
+    padding-left: 10px;
+    margin: 0;
+  }
+}
